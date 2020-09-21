@@ -1,0 +1,28 @@
+{
+  "name": "redis-caching",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shemaeric/node-redis-caching.git"
+  },
+  "author": "shema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shemaeric/node-redis-caching/issues"
+  },
+  "homepage": "https://github.com/shemaeric/node-redis-caching#readme"
+}
